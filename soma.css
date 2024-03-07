@@ -1,0 +1,89 @@
+body {
+  /* background-image: url('soma-icon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 2em;
+  width: 30%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.main {
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  padding: 1em;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.808);
+}
+
+.header img {
+  width: 100px;
+}
+
+.form-content {
+  padding: 1em;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.field input {
+  padding-left: 1em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  border-radius: 6px;
+  border-color: rgba(0, 0, 0, 0.14);
+}
+
+.checkbox {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.form-content button {
+  background-color: #209cb2;
+}
+
+.form-content button:hover {
+  background-color: #1c7f91;
+}
+
+button {
+  border: none;
+  width: 100%;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.extra {
+  padding: 1em;
+  text-align: center;
+}
+
+.extra button {
+  margin-top: 1em;
+  background-color: rgb(28, 90, 141);
+}
+
+.extra span {
+  opacity: 0.5;
+}
